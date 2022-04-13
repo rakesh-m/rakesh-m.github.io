@@ -1,6 +1,27 @@
 * {
-    margin: 10px;
-    padding: 10px;
-    background: wheat;
+    margin: 0;
+    padding: 0;
     font-family: Karla, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: wheat;
+    padding: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: wheat;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
 }
