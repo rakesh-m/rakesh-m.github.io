@@ -15,19 +15,57 @@ header {
     justify-content: space-between;
     background: wheat;
     padding: 10px;
+    box-shadow: 0px 3px 7px tan;
+    font-size: 20px;
 }
 
 div {
     font-size: 40px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
+div h3:hover, div h3:active {
+    padding-bottom: 50px;
+    transition-duration: 0.2s;
+}
+
+div h5 {
+    color: gray;
+}
+
+div h5:hover, div h5:active {
+    color: black;
+}
+
+div small {
+    margin-top: 50px;
+    font-size: 15px;
+    color: gray;
+}
+
 footer {
+    display: flex;
+    flex-direction: row;
+    /* align-content: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: center;
     background: wheat;
     width: 100%;
     bottom: 0;
     padding: 10px;
+    box-shadow: 3px 0px 7px tan;
+}
+
+footer img {
+    margin-left: 20px;
+    height: 15px;
+}
+
+footer img:hover {
+    margin-bottom: 3px;
 }
