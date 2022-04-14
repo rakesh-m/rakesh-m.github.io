@@ -4,6 +4,11 @@
     font-family: Karla, sans-serif;
 }
 
+html, body {
+    height: 100%;
+    background: whitesmoke;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -13,6 +18,8 @@ header {
 }
 
 div {
+    font-size: 40px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +27,6 @@ div {
 
 footer {
     background: wheat;
-    position: absolute;
     width: 100%;
     bottom: 0;
     padding: 10px;
