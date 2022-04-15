@@ -19,9 +19,16 @@ header {
     justify-content: space-around;
     background: wheat;
     padding: 1em;
+    border: 1px solid tan;
     box-shadow: 0px 3px 7px tan;
     font-size: 2rem;
     width: 100%;
+}
+
+.page {
+    border: 1px solid tan;
+    box-shadow: 0px 3px 7px tan;
+    margin: 0.5em;
 }
 
 div {
@@ -62,6 +69,7 @@ footer {
     width: 100%;
     bottom: 0;
     padding: 1em;
+    border: 1px solid tan;
     box-shadow: 3px 0px 7px tan;
     font-size: 2rem;
 }
