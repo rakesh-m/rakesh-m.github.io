@@ -4,6 +4,10 @@
     font-family: Karla, sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     background: whitesmoke;
@@ -12,24 +16,26 @@ html, body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background: wheat;
-    padding: 10px;
+    padding: 1em;
     box-shadow: 0px 3px 7px tan;
-    /* font-size: 2em; */
+    font-size: 2rem;
+    width: 100%;
 }
 
 div {
-    font-size: 1.5em;
+    font-size: 3rem;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 div h3:hover, div h3:active {
-    padding-bottom: 50px;
+    padding-bottom: 3rem;
     transition-duration: 0.2s;
 }
 
@@ -42,8 +48,8 @@ div h5:hover, div h5:active {
 }
 
 div small {
-    margin-top: 50px;
-    font-size: 15px;
+    margin-top: 5em;
+    font-size: 2rem;
     color: gray;
 }
 
@@ -55,14 +61,15 @@ footer {
     background: wheat;
     width: 100%;
     bottom: 0;
-    padding: 10px;
+    padding: 1em;
     box-shadow: 3px 0px 7px tan;
+    font-size: 2rem;
 }
 
 footer img {
-    margin-left: 20px;
-    height: 15px;
+    margin-left: 1em;
     vertical-align: middle;
+    height: 1em;
 }
 
 footer img:hover {
