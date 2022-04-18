@@ -41,6 +41,11 @@ div {
     text-align: center;
 }
 
+div h3 a {
+    text-decoration: none;
+    color: black;
+}
+
 div h3:hover, div h3:active {
     padding-bottom: 3rem;
     transition-duration: 0.2s;
